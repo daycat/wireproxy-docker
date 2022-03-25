@@ -37,7 +37,7 @@ jobs:
         with:
           context: .
           push: true
-          platforms: linux/amd64,linux/arm64,linux/s390x
+          platforms: linux/amd64,linux/arm64
           tags: daycat/wireproxy-docker:latest,daycat/wireproxy-docker:${{ env.GIT_TAG_NAME }}
 
       - name: Image digest
