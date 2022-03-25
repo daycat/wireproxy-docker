@@ -38,7 +38,7 @@ jobs:
           context: .
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: daycat/wireproxy-docker:latest,daycat/wireproxy-docker:${{ env.GIT_TAG_NAME }}
+          tags: daycat/wireproxy-docker,daycat/wireproxy-docker:${{ env.GIT_TAG_NAME }}
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}

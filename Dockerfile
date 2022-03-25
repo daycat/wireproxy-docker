@@ -5,5 +5,5 @@ COPY go.mod ./
 COPY go.sum ./
 RUN go mod download
 COPY *.go ./
-RUN go build -o /docker-wireproxy
-CMD [ "/docker-wireproxy" ]
+RUN go build -o /wireproxy-docker
+CMD [ "/wireproxy-docker" ]
