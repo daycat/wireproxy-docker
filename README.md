@@ -19,7 +19,7 @@ anything.
 # Usage
 `./wireproxy [config file path]`
 
-or, pass the "wireproxyconfigpath" environment into DE whilst starting
+or, if you are using Docker to run, create a config file, mirror it into the image (google this please), and pass the mirrored config file location (inside the container) into a variable called "wireproxyconfigpath" and pass it into DE whilst starting
 
 # Sample config file
 ```
