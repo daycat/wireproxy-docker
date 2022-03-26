@@ -1,8 +1,9 @@
 # wireproxy-docker
 Wireguard client that exposes itself as a socks5 proxy or tunnels.   
-This is specifically the docker version of this forked project for easy deployment.
+This is specifically the docker version of this forked project for easy deployment.  
+Original code is only slightly changed from https://github.com/octeep/wireproxy.  
 # What is this
-wireproxy is a completely userspace application that connects to a wireguard peer,
+Wireproxy is a completely userspace application that connects to a wireguard peer,
 and exposes a socks5 proxy or tunnels on the machine. This can be useful if you need
 to connect to certain sites via a wireguard peer, but do not want to setup a new network
 interface for whatever reasons.
