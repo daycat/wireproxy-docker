@@ -20,7 +20,7 @@ anything.
 `./wireproxy [config file path]`
 
 or, if you are using Docker to run, create a config file, mirror it into the image (google this please), and pass the mirrored config file location (inside the container) into a variable called "wireproxyconfigpath" and pass it into DE whilst starting
-
+By default, the port 23944 is used. You should reflect this in your config file, or use --expose flags whilst starting the Docker container
 # Sample config file
 ```
 # SelfSecretKey is the secret key of your wireguard peer
