@@ -1,4 +1,4 @@
-module github.com/octeep/wireproxy
+module github.com/daycat/wireproxy-docker
 
 go 1.17
 
