@@ -24,7 +24,7 @@ docker run --expose (internal port) -p 0.0.0.0:(host port):(internal port) -v (c
 
 For example, this is a valid command to start:
 ```shell
-    screen docker run --expose 23944 -p 0.0.0.0:23944:23944 -v /root:/etc/wireproxy --env wireproxyconfigpath=/etc/wireproxy/wireguard-argentina.conf daycat/wireproxy-docker
+screen docker run --expose 23944 -p 0.0.0.0:23944:23944 -v /root:/etc/wireproxy --env wireproxyconfigpath=/etc/wireproxy/wireguard-argentina.conf daycat/wireproxy-docker
 ```
 # Configuration
 
